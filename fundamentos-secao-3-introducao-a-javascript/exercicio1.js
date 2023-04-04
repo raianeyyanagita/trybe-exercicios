@@ -10,7 +10,16 @@ let info2 = {
     origem: 'Christmas on Bear Mountain, Dell’s Four Color Comics #178',
     nota: 'O último MacPatinhas',
     recorrente: 'Sim',
-};
+}; 
+
+
+Object.keys(info).forEach((key) => {
+    const texto = key === 'recorrente'? 'Ambos recorrentes': `${info[key]} e ${info2[key]}`
+    console.log(texto);
+})
+
+
+
 
 //for(let key in info) {
 //console.log(Object.values(info, info2));
