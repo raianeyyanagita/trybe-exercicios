@@ -3,26 +3,37 @@
 *:after {
     box-sizing: border-box;
 }
-.pai{
+
+body {
+    background-image: url("viagem.gif");
+    background-color: rgb(24, 110, 125);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -316px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    padding: 10px;
+    color: white;
 
-}
-.container {
-    padding: 10px;
-    margin-top: 10px;
 }
 
 #pai {
+    margin-top: 10rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+
 
 }
 #fullName {
     width: 15rem;
     height: 2rem;
 }
+
 #email {
     width: 15rem;
     height: 2rem;
@@ -32,18 +43,27 @@
     width: 20rem;
     height: 5rem;
 }
+
 #date {
     width: 10rem;
     height: 2rem;
 }
+
 .label {
-    padding: 2px;
+    padding: 10px;
     font-size: 12px;
 }
-h1{
+
+h1 {
     font-size: 20px;
 }
+
 #submit-btn {
     width: 10rem;
     height: 2rem;
+}
+
+header {
+    margin-top: 3rem;
+    padding: 10px;
 }
