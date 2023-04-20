@@ -1,0 +1,49 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+.pai{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+
+}
+.container {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#pai {
+
+}
+#fullName {
+    width: 15rem;
+    height: 2rem;
+}
+#email {
+    width: 15rem;
+    height: 2rem;
+}
+
+#why {
+    width: 20rem;
+    height: 5rem;
+}
+#date {
+    width: 10rem;
+    height: 2rem;
+}
+.label {
+    padding: 2px;
+    font-size: 12px;
+}
+h1{
+    font-size: 20px;
+}
+#submit-btn {
+    width: 10rem;
+    height: 2rem;
+}
